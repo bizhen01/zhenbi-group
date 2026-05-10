@@ -1,11 +1,14 @@
 # Social media links and academic profiles
 # Order here determines display order
 # Docs: https://github.com/george-gca/jekyll-socials
-cv_pdf: # /assets/pdf/zhen_bi_cv.pdf  # uncomment once you drop a CV PDF in assets/pdf/
+#
+# IMPORTANT: jekyll-socials chokes on keys with empty values. Add a key only
+# once you have a value for it. Suggested keys to add later:
+#   cv_pdf: /assets/pdf/zhen_bi_cv.pdf
+#   orcid_id: 0000-0000-0000-0000
+#   inspirehep_id: <numeric ID>
+#   arxiv_id: <arxiv author identifier>
 email: zjb5184@psu.edu
 scholar_userid: M8lsE8sAAAAJ
-orcid_id: # add ORCID iD if available
-inspirehep_id: # add Inspire HEP author ID if applicable
-arxiv_id: # arXiv ORCID-linked author identifier
 github_username: bizhen01
 rss_icon: true
