@@ -1,3 +1,0 @@
-# Adrian Fedorko
-
-**Graduate Student**

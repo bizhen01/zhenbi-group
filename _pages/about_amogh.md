@@ -1,3 +1,0 @@
-# Amogh Anakru
-
-**Graduate Student**

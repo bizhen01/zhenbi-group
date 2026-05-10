@@ -201,15 +201,7 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - _pages/about_zhenbi.md
-  - _pages/about_linhao.md
-  - _pages/about_jacopo.md
-  - _pages/about_amogh.md
-  - _pages/about_sarvesh.md
-  - _pages/about_adrian.md
-  - _pages/about_anubhav.md
-  - _pages/about_jinfei.md
-  - _pages/about_jianhao.md
-  - _pages/about_claire.md
+  - _pages/about_members_list.md
   - purgecss.config.js
   - README.md
   - readme_preview/

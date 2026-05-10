@@ -1,3 +1,0 @@
-# Sarvesh Srinivasan
-
-**Graduate Student**
