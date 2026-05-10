@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bizhen01.github.io/zhenbi-group/sitemap.xml
