@@ -21,7 +21,10 @@
   Conventions:
     - selected={true} surfaces a paper on the about page.
     - bibtex_show={true} exposes a BibTeX toggle on the publications page.
-    - arxiv field auto-renders an arXiv link button next to the entry.
+    - The title links to doi (preferred), or arxiv, or html, in that order.
+    - DOIs for APS (PhysRev*) and PNAS papers are constructed from volume/page.
+    - For Nature-family and Science Bulletin entries, the doi can be filled in
+      manually later when known; the title will fall back to plain text.
 }
 
 @article{zhang2025fidelity,
@@ -34,7 +37,6 @@
 }
 
 @article{anakru2025emergent,
-  abbr        = {PRL},
   bibtex_show = {true},
   title       = {Emergent Gauge Field in Composite-Fermion Metals: A Large-Scale Microscopic Study},
   author      = {Anakru, A. and Gattu, M. and Balram, A. C. and Wu, X.-C. and Kumar, P. and Bi, Zhen and Jain, J. K.},
@@ -43,11 +45,11 @@
   number      = {24},
   pages       = {246503},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevLett.135.246503}
 }
 
 @article{luo2025topological,
-  abbr        = {PRX-Q},
   bibtex_show = {true},
   title       = {Topological Holography for Mixed-State Phases and Phase Transitions},
   author      = {Luo, R. and Wang, Y.-N. and Bi, Zhen},
@@ -56,7 +58,8 @@
   number      = {4},
   pages       = {040358},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PRXQuantum.6.040358}
 }
 
 @misc{srinivasan2025classification,
@@ -68,7 +71,6 @@
 }
 
 @article{chen2025intrinsic,
-  abbr        = {PRL},
   bibtex_show = {true},
   title       = {Intrinsic Axion Statistical Topological Insulator},
   author      = {Chen, X. and Wang, F.-J. and Bi, Zhen and Song, Z.-D.},
@@ -77,11 +79,11 @@
   number      = {22},
   pages       = {226601},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevLett.134.226601}
 }
 
 @article{sun2025holographic,
-  abbr        = {PRX-Q},
   bibtex_show = {true},
   title       = {Holographic View of Mixed-State Symmetry-Protected Topological Phases in Open Quantum Systems},
   author      = {Sun, S. and Zhang, J.-H. and Bi, Zhen and You, Y.},
@@ -90,11 +92,11 @@
   number      = {2},
   pages       = {020333},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PRXQuantum.6.020333}
 }
 
 @article{zhang2025strong,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Strong-to-Weak Spontaneous Breaking of 1-Form Symmetry and Intrinsically Mixed Topological Order},
   author      = {Zhang, C. and Xu, Y. and Zhang, J.-H. and Xu, C. and Bi, Zhen and Luo, Z.-X.},
@@ -103,11 +105,11 @@
   number      = {11},
   pages       = {115137},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.111.115137}
 }
 
 @article{lessa2025strong,
-  abbr        = {PRX-Q},
   bibtex_show = {true},
   title       = {Strong-to-Weak Spontaneous Symmetry Breaking in Mixed Quantum States},
   author      = {Lessa, L. and Ma, R. and Zhang, J.-H. and Bi, Zhen and Cheng, M. and Wang, C.},
@@ -116,11 +118,11 @@
   number      = {1},
   pages       = {010344},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PRXQuantum.6.010344}
 }
 
 @article{guo2025locally,
-  abbr        = {PRX},
   bibtex_show = {true},
   title       = {Locally Purified Density Operators for Symmetry-Protected Topological Phases in Mixed States},
   author      = {Guo, Y. and Zhang, J.-H. and Zhang, H.-R. and Yang, S. and Bi, Zhen},
@@ -129,11 +131,11 @@
   number      = {2},
   pages       = {021060},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevX.15.021060}
 }
 
 @article{ma2025topological,
-  abbr        = {PRX},
   bibtex_show = {true},
   selected    = {true},
   title       = {Topological Phases with Average Symmetries: The Decohered, the Disordered, and the Intrinsic},
@@ -143,7 +145,8 @@
   number      = {2},
   pages       = {021062},
   year        = {2025},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevX.15.021062}
 }
 
 @misc{fedorko2025engineering,
@@ -163,7 +166,6 @@
 }
 
 @article{xu2024maximally,
-  abbr        = {PNAS},
   bibtex_show = {true},
   title       = {Maximally Localized {W}annier Orbitals, Interaction Models and Fractional Quantum Anomalous {H}all Effect in Twisted Bilayer {MoTe$_2$}},
   author      = {Xu, C. and Li, J. and Xu, Y. and Bi, Zhen and Zhang, Y.},
@@ -171,11 +173,11 @@
   volume      = {121},
   number      = {8},
   pages       = {e2316749121},
-  year        = {2024}
+  year        = {2024},
+  doi         = {10.1073/pnas.2316749121}
 }
 
 @article{guo2023triggering,
-  abbr        = {PRR},
   bibtex_show = {true},
   title       = {Triggering Boundary Phase Transitions through Bulk Measurements in 2{D} Cluster States},
   author      = {Guo, Y. and Zhang, J. and Bi, Zhen and Yang, S.},
@@ -183,11 +185,11 @@
   volume      = {5},
   pages       = {043069},
   year        = {2023},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevResearch.5.043069}
 }
 
 @article{zhang2023fractonic,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Fractonic Higher-Order Topological Phases in Open Quantum Systems},
   author      = {Zhang, J.-H. and Ding, K. and Yang, S. and Bi, Zhen},
@@ -195,11 +197,11 @@
   volume      = {108},
   pages       = {155123},
   year        = {2023},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.108.155123}
 }
 
 @article{anakru2023nonfermi,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Non-{F}ermi Liquids from Dipolar Symmetry Breaking},
   author      = {Anakru, A. and Bi, Zhen},
@@ -207,11 +209,11 @@
   volume      = {108},
   pages       = {165112},
   year        = {2023},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.108.165112}
 }
 
 @article{zhang2023classification,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Classification and Construction of Interacting Fractonic Higher-Order Topological Phases},
   author      = {Zhang, J.-H. and Cheng, M. and Bi, Zhen},
@@ -219,11 +221,11 @@
   volume      = {108},
   pages       = {045133},
   year        = {2023},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.108.045133}
 }
 
 @article{maymann2022interaction,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Interaction-Enabled Fractonic Higher-Order Topological Phases},
   author      = {May-Mann, J. and You, Y. and Hughes, T. L. and Bi, Zhen},
@@ -231,7 +233,8 @@
   volume      = {105},
   pages       = {245122},
   year        = {2022},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.105.245122}
 }
 
 @misc{lee2022decoding,
@@ -243,7 +246,6 @@
 }
 
 @article{jian2021yanglee,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {{Y}ang-{L}ee Edge Singularity Triggered Entanglement Transition},
   author      = {Jian, S.-K. and Yang, Z.-C. and Bi, Zhen and Chen, X.},
@@ -251,11 +253,11 @@
   volume      = {104},
   pages       = {L161107},
   year        = {2021},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.104.L161107}
 }
 
 @article{bi2021excitonic,
-  abbr        = {Nat. Commun.},
   bibtex_show = {true},
   title       = {Excitonic Density Wave and Spin-Valley Superfluid in Bilayer Transition Metal Dichalcogenide},
   author      = {Bi, Zhen and Fu, Liang},
@@ -266,7 +268,6 @@
 }
 
 @article{zheng2020unconventional,
-  abbr        = {Nature},
   bibtex_show = {true},
   selected    = {true},
   title       = {Unconventional Ferroelectricity in Moir{\'e} Heterostructures},
@@ -278,7 +279,6 @@
 }
 
 @article{han2020birefringence,
-  abbr        = {Nat. Nano.},
   bibtex_show = {true},
   title       = {Birefringence-Like Spin Transport via Linearly Polarized Antiferromagnetic Magnons},
   author      = {Han, J. and Zhang, P. and Bi, Zhen and Fan, Y. and Safi, T. S. and Xiang, J. and Finley, J. and Fu, L. and Cheng, R. and Liu, L.},
@@ -289,7 +289,6 @@
 }
 
 @article{bi2020landau,
-  abbr        = {PRR},
   bibtex_show = {true},
   selected    = {true},
   title       = {Landau Ordering Phase Transition beyond the Landau Paradigm},
@@ -298,11 +297,11 @@
   volume      = {2},
   pages       = {023031},
   year        = {2020},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevResearch.2.023031}
 }
 
 @article{goldman2020collusion,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Collusion of Interactions and Disorder at the Superfluid-Insulator Transition: A Dirty 2{d} Quantum Critical Point},
   author      = {Goldman, H. and Thomson, A. and Nie, L. and Bi, Zhen},
@@ -310,11 +309,11 @@
   volume      = {101},
   pages       = {144506},
   year        = {2020},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.101.144506}
 }
 
 @article{you2020emergent,
-  abbr        = {PRR},
   bibtex_show = {true},
   title       = {Emergent Fractons and Algebraic Quantum Liquid from Plaquette Melting Transitions},
   author      = {You, Y. and Bi, Zhen and Pretko, M.},
@@ -322,11 +321,11 @@
   volume      = {2},
   pages       = {013162},
   year        = {2020},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevResearch.2.013162}
 }
 
 @article{kozii2019superconductivity,
-  abbr        = {PRX},
   bibtex_show = {true},
   title       = {Superconductivity Near a Ferroelectric Quantum Critical Point in Ultra-Low-Density Dirac Materials},
   author      = {Kozii, V. and Bi, Zhen and Ruhman, J.},
@@ -334,11 +333,11 @@
   volume      = {9},
   pages       = {031046},
   year        = {2019},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevX.9.031046}
 }
 
 @article{williamson2019fractonic,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Fractonic Matter in Symmetry-Enriched {U}(1) Gauge Theory},
   author      = {Williamson, D. and Bi, Zhen and Cheng, M.},
@@ -347,11 +346,11 @@
   pages       = {125150},
   year        = {2019},
   publisher   = aps,
+  doi         = {10.1103/PhysRevB.100.125150},
   additional_info = {Editors' Suggestion}
 }
 
 @article{bi2019designing,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Designing Flat Bands by Strain},
   author      = {Bi, Zhen and Yuan, N. and Fu, L.},
@@ -360,6 +359,7 @@
   pages       = {035448},
   year        = {2019},
   publisher   = aps,
+  doi         = {10.1103/PhysRevB.100.035448},
   additional_info = {Editors' Suggestion}
 }
 
@@ -373,7 +373,6 @@
 }
 
 @article{bi2019adventure,
-  abbr        = {PRX},
   bibtex_show = {true},
   selected    = {true},
   title       = {An Adventure in Topological Phase Transitions in {3+1-D}: Non-Abelian Deconfined Quantum Criticalities and a Possible Duality},
@@ -382,11 +381,11 @@
   volume      = {9},
   pages       = {021034},
   year        = {2019},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevX.9.021034}
 }
 
 @article{jian2019lattice,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Lattice Construction of Duality with Non-Abelian Gauge Fields in 2+1{D}},
   author      = {Jian, C.-M. and Bi, Zhen and You, Y.-Z.},
@@ -394,11 +393,11 @@
   volume      = {100},
   pages       = {075109},
   year        = {2019},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.100.075109}
 }
 
 @article{cheng2018classification,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Classification of Symmetry-Protected Phases for Interacting Fermions in Two Dimensions},
   author      = {Cheng, M. and Bi, Zhen and You, Y.-Z. and Gu, Z.-C.},
@@ -407,11 +406,11 @@
   pages       = {205109},
   year        = {2018},
   publisher   = aps,
+  doi         = {10.1103/PhysRevB.97.205109},
   additional_info = {Editors' Suggestion}
 }
 
 @article{jian2018deconfined,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Deconfined Quantum Critical Point on the Triangular Lattice},
   author      = {Jian, C.-M. and Thomson, A. and Rasmussen, A. and Bi, Zhen and Xu, C.},
@@ -419,11 +418,11 @@
   volume      = {97},
   pages       = {195115},
   year        = {2018},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.97.195115}
 }
 
 @article{jian2018lieb,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {{L}ieb-{S}chultz-{M}attis Theorem and Its Generalizations from the Perspective of the Symmetry-Protected Topological Phase},
   author      = {Jian, C.-M. and Bi, Zhen and Xu, C.},
@@ -431,11 +430,11 @@
   volume      = {97},
   pages       = {054412},
   year        = {2018},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.97.054412}
 }
 
 @article{jian2017thermal,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {A Model for Continuous Thermal Metal to Insulator Transition},
   author      = {Jian, C.-M. and Bi, Zhen and Xu, C.},
@@ -443,11 +442,11 @@
   volume      = {96},
   pages       = {115122},
   year        = {2017},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.96.115122}
 }
 
 @article{bi2017instability,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Instability of the Non-{F}ermi Liquid State of the {Sachdev-Ye-Kitaev} Model},
   author      = {Bi, Zhen and Jian, C.-M. and You, Y.-Z. and Pawlak, K. and Xu, C.},
@@ -455,11 +454,11 @@
   volume      = {95},
   pages       = {205105},
   year        = {2017},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.95.205105}
 }
 
 @article{slagle2017otoc,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Out-of-Time-Order Correlation in Marginal Many-Body Localized Systems},
   author      = {Slagle, K. and Bi, Zhen and You, Y.-Z. and Xu, C.},
@@ -467,11 +466,11 @@
   volume      = {95},
   pages       = {165136},
   year        = {2017},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.95.165136}
 }
 
 @article{bi2017bilayer,
-  abbr        = {PRL},
   bibtex_show = {true},
   selected    = {true},
   title       = {Bilayer Graphene as a Platform for Bosonic Symmetry Protected Topological States},
@@ -480,11 +479,11 @@
   volume      = {118},
   pages       = {126801},
   year        = {2017},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevLett.118.126801}
 }
 
 @article{bi2016exotic,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Exotic Quantum Critical Point on the Surface of the Three-Dimensional Topological Insulator},
   author      = {Bi, Zhen and You, Y.-Z. and Xu, C.},
@@ -492,11 +491,11 @@
   volume      = {94},
   pages       = {024433},
   year        = {2016},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.94.024433}
 }
 
 @article{you2016quantum,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Quantum Phase Transitions between Bosonic Symmetry-Protected Topological States without Sign Problem: Nonlinear Sigma Model with a Topological Term},
   author      = {You, Y.-Z. and Bi, Zhen and Mao, D. and Xu, C.},
@@ -504,7 +503,8 @@
   volume      = {93},
   pages       = {125101},
   year        = {2016},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.93.125101}
 }
 
 @misc{bi2016stable,
@@ -516,7 +516,6 @@
 }
 
 @article{bi2015construction,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Construction and Field Theory of Bosonic Symmetry Protected Topological States beyond Group Cohomology},
   author      = {Bi, Zhen and Xu, C.},
@@ -524,11 +523,11 @@
   volume      = {91},
   pages       = {184404},
   year        = {2015},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.91.184404}
 }
 
 @article{bi2015classification,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Classification and Description of Bosonic Symmetry Protected Topological Phases with Semiclassical Nonlinear Sigma Models},
   author      = {Bi, Zhen and Rasmussen, A. and Slagle, K. and Xu, C.},
@@ -537,18 +536,19 @@
   pages       = {134404},
   year        = {2015},
   publisher   = aps,
+  doi         = {10.1103/PhysRevB.91.134404},
   additional_info = {Editors' Suggestion}
 }
 
 @article{you2015bridging,
-  abbr        = {NJP},
   bibtex_show = {true},
   title       = {Bridging Fermionic and Bosonic Short-Range Entangled States},
   author      = {You, Y.-Z. and Bi, Zhen and Rasmussen, A. and Cheng, M. and Xu, C.},
   journal     = njp,
   volume      = {17},
   pages       = {075010},
-  year        = {2015}
+  year        = {2015},
+  doi         = {10.1088/1367-2630/17/7/075010}
 }
 
 @misc{slagle2015mbl,
@@ -568,7 +568,6 @@
 }
 
 @article{bi2014anyon,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Anyon and Loop Braiding Statistics in Field Theories with a Topological $\Theta$-Term},
   author      = {Bi, Zhen and You, Y.-Z. and Xu, C.},
@@ -577,11 +576,11 @@
   pages       = {081110},
   year        = {2014},
   publisher   = aps,
+  doi         = {10.1103/PhysRevB.90.081110},
   additional_info = {Rapid Communication}
 }
 
 @article{you2014wavefunction,
-  abbr        = {PRL},
   bibtex_show = {true},
   title       = {Wavefunction and Strange Correlator of Short-Range Entangled States},
   author      = {You, Y.-Z. and Bi, Zhen and Rasmussen, A. and Slagle, K. and Xu, C.},
@@ -589,11 +588,11 @@
   volume      = {112},
   pages       = {247202},
   year        = {2014},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevLett.112.247202}
 }
 
 @article{bi2014line,
-  abbr        = {PRB},
   bibtex_show = {true},
   title       = {Line Defects in Three-Dimensional Symmetry Protected Topological Phases},
   author      = {Bi, Zhen and Rasmussen, A. and Xu, C.},
@@ -601,5 +600,6 @@
   volume      = {89},
   pages       = {184424},
   year        = {2014},
-  publisher   = aps
+  publisher   = aps,
+  doi         = {10.1103/PhysRevB.89.184424}
 }

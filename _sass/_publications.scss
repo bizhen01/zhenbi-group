@@ -6,6 +6,7 @@
 
 .publications {
   margin-top: 2rem;
+  counter-reset: bib-counter;
 
   h1 {
     color: var(--global-theme-color);
@@ -38,6 +39,19 @@
 
     li {
       margin-bottom: 1rem;
+      counter-increment: bib-counter;
+      position: relative;
+      padding-left: 3rem;
+
+      &::before {
+        content: "[" counter(bib-counter) "]";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-weight: 600;
+        color: var(--global-theme-color);
+        min-width: 2.5rem;
+      }
 
       .preview {
         display: inline-block;
