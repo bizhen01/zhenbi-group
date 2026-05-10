@@ -1,7 +1,7 @@
 ---
 ---
 
-@string{aps  = {American Physical Society,}}
+@string{aps  = {American Physical Society}}
 @string{prl  = {Physical Review Letters}}
 @string{prb  = {Physical Review B}}
 @string{prx  = {Physical Review X}}
@@ -11,21 +11,16 @@
 @string{natc = {Nature Communications}}
 @string{sci  = {Science}}
 
-% =============================================================================
-% Bi Group publications
-% =============================================================================
-% Conventions:
-%   - Use @article for journal papers, @misc for arXiv-only preprints.
-%   - Mark a paper as `selected={true}` to surface it on the about page.
-%   - Set `bibtex_show={true}` to expose a "BibTeX" toggle on the publications page.
-%   - Optional fields al-folio supports: abbr, abstract, html, pdf, arxiv, code,
-%     slides, video, poster, supp, blog, website, preview, altmetric, dimensions,
-%     google_scholar_id, inspirehep_id, additional_info.
-%   - Bulk-import: paste BibTeX exported from Google Scholar (My library -> Export -> BibTeX)
-%     and clean up entries one at a time.
-% =============================================================================
-
-% ----- Selected representative publications (placeholders — fill in / verify) -----
+@comment{
+  Bi Group publications. Conventions:
+    - Use @article for journal papers, @misc for arXiv-only preprints.
+    - Mark a paper as selected={true} to surface it on the about page.
+    - Set bibtex_show={true} to expose a BibTeX toggle on the publications page.
+    - Optional fields al-folio supports: abbr, abstract, html, pdf, arxiv, code,
+      slides, video, poster, supp, blog, website, preview, altmetric, dimensions,
+      google_scholar_id, inspirehep_id, additional_info.
+    - Bulk-import path: export from Google Scholar My Library to BibTeX, paste below.
+}
 
 @article{bi2020landau,
   abbr        = {PRR},
@@ -96,8 +91,3 @@
   publisher   = aps,
   arxiv       = {1610.06061}
 }
-
-% ----- Add new publications above this line. -----
-% Recommended bulk-import: export your library from
-% https://scholar.google.com/citations?user=M8lsE8sAAAAJ&hl=en
-% and paste cleaned BibTeX entries here.
