@@ -2,6 +2,36 @@
 
 Project-local notes for getting the site live and maintaining it. The full upstream docs (al-folio) are in `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `TROUBLESHOOTING.md`.
 
+## Current status (2026-05-10): site is DARK while we fine-tune
+
+- Repo `bizhen01/zhenbi-group` is **public** (free GitHub plan requires this for Pages).
+- `Deploy site` workflow is **disabled** (commits to `main` no longer auto-publish).
+- `gh-pages` branch has been **deleted** so the public URL `https://bizhen01.github.io/zhenbi-group/` returns **404**.
+- All editing on `main` continues normally; pushes are safe.
+
+### To go live (single recipe):
+
+```bash
+# from anywhere with gh CLI logged in
+gh workflow enable "Deploy site" --repo bizhen01/zhenbi-group
+
+# trigger a build by pushing any commit (or an empty one)
+cd 00_whoami/group-website
+git commit --allow-empty -m "Trigger live deployment"
+git push
+
+# the workflow rebuilds gh-pages; URL goes live in ~3 min
+```
+
+### To re-darken later:
+
+```bash
+gh workflow disable "Deploy site" --repo bizhen01/zhenbi-group
+git push origin --delete gh-pages
+```
+
+---
+
 ## What is already configured
 
 - `_config.yml`: title, name, description, `url: https://bizhen01.github.io`, `baseurl: /zhenbi-group`, jekyll-scholar `last_name: [Bi]`.
