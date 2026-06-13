@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research themes pursued by the Bi Group.",
+          description: "Research program of the Bi Group — theoretical condensed matter physics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/zhenbi-group/research/";
@@ -65,17 +65,7 @@ ninja.data = [{
           section: "News",},{id: "news-the-bi-group-website-is-online-news-and-updates-will-be-posted-here",
           title: 'The Bi Group website is online. News and updates will be posted here....',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/zhenbi-group/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/zhenbi-group/teachings/introduction-to-machine-learning/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
