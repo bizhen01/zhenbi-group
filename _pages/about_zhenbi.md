@@ -10,7 +10,7 @@ I am a theoretical condensed matter physicist. My research uses quantum field th
 - **B.Sc., Physics**, Peking University (2008–2012)
 
 ### Selected Awards
-- NSF CAREER Award (2023)
+- NSF CAREER Award (2024)
 - C.-N. Yang Visiting Fellow, Chinese University of Hong Kong (2022)
 - Pappalardo Fellowship, MIT (2017–2020)
 - Outstanding Teaching Assistant Award, UCSB (2017)

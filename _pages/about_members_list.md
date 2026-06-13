@@ -15,3 +15,4 @@
 
 - **Jian-Hao Zhang** &nbsp; former Postdoctoral Researcher &middot; now Faculty, [Westlake University](https://en.westlake.edu.cn/), China
 - **Claire Schubert** &nbsp; former Undergraduate Researcher &middot; next: graduate program at the City University of New York (CUNY)
+- **Paul John Balderston** &nbsp; former Undergraduate Researcher &middot; now Theoretical Physics MSc student, [University of Amsterdam](https://www.uva.nl/en) &amp; Visiting Academic, [NYU CCPP](https://cosmo.nyu.edu/)
