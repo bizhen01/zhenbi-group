@@ -28,6 +28,14 @@ latest_posts:
   limit: 3
 ---
 
+<!--
+  STRUCTURE NOTE (safe to delete). This landing page is the first thing a
+  tenure evaluator sees. Consider opening with one sharp sentence stating the
+  research program's significance (the "thesis"), THEN the topic list below.
+  The "selected_papers" block (front matter) surfaces your marquee papers here;
+  curate them via `selected={true}` in _bibliography/papers.bib.
+-->
+
 The Bi Group at Penn State works on **theoretical condensed matter physics**. Our research sits at the interface of quantum field theory, topology, and strongly correlated electron systems. We are particularly interested in:
 
 - **Topological phases of matter** — classification, characterization, and novel topological phenomena, including fractonic and higher-order topological phases.
