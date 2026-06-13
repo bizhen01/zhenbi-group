@@ -59,8 +59,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-zhen-received-a-2023-nsf-career-award-for-theoretical-work-on-electronic-organization-in-strongly-correlated-metals-and-quantum-phase-transitions",
-          title: 'Zhen received a 2023 NSF CAREER Award for theoretical work on electronic organization...',
+      },{id: "news-zhen-received-a-2024-nsf-career-award-for-theoretical-work-on-electronic-organization-in-strongly-correlated-metals-and-quantum-phase-transitions",
+          title: 'Zhen received a 2024 NSF CAREER Award for theoretical work on electronic organization...',
           description: "",
           section: "News",},{id: "news-the-bi-group-website-is-online-news-and-updates-will-be-posted-here",
           title: 'The Bi Group website is online. News and updates will be posted here....',
