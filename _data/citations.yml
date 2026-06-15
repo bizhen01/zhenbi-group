@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-15'
 papers:
   M8lsE8sAAAAJ:0KyAp5RtaNEC:
     citations: 105
@@ -22,7 +22,7 @@ papers:
     title: 'Oral: Strong-to-Weak Spontaneous Symmetry Breaking in Mixed Quantum States II'
     year: '2025'
   M8lsE8sAAAAJ:4OULZ7Gr8RgC:
-    citations: 102
+    citations: 103
     title: Classification of symmetry-protected phases for interacting fermions in two dimensions
     year: '2018'
   M8lsE8sAAAAJ:5awf1xo2G04C:
@@ -34,7 +34,7 @@ papers:
     title: "Topological minibands and interaction driven quantum anomalous Hall state in topological insulator based moir\xE9 heterostructures"
     year: '2024'
   M8lsE8sAAAAJ:9vf0nzSNQJEC:
-    citations: 59
+    citations: 60
     title: Superconductivity near a ferroelectric quantum critical point in ultralow-density Dirac materials
     year: '2019'
   M8lsE8sAAAAJ:AXPGKjj_ei8C:
@@ -62,7 +62,7 @@ papers:
     title: 'Matrix Product States for Modulated Symmetries: SPT, LSM, and Beyond'
     year: '2026'
   M8lsE8sAAAAJ:EkHepimYqZsC:
-    citations: 3
+    citations: 4
     title: Intrinsic axion statistical topological insulator
     year: '2025'
   M8lsE8sAAAAJ:Fu2w8maKXqMC:
@@ -74,11 +74,11 @@ papers:
     title: Classification and description of bosonic symmetry protected topological phases with semiclassical nonlinear sigma models
     year: '2015'
   M8lsE8sAAAAJ:ILKRHgRFtOwC:
-    citations: 0
+    citations: 1
     title: Generalized symmetry-protected topological phases in mixed states from gauging dualities
     year: '2026'
   M8lsE8sAAAAJ:J-pR_7NvFogC:
-    citations: 120
+    citations: 122
     title: Instability of the non-Fermi-liquid state of the Sachdev-Ye-Kitaev model
     year: '2017'
   M8lsE8sAAAAJ:JQOojiI6XY0C:
@@ -102,7 +102,7 @@ papers:
     title: Electrically controllable nonreciprocal Josephson junctions with an atomic layer deposition prepared tunnel barrier
     year: '2025'
   M8lsE8sAAAAJ:N5tVd3kTz84C:
-    citations: 6
+    citations: 7
     title: Stable interacting (2+ 1) d conformal field theories at the boundary of a class of (3+ 1) d symmetry protected topological phases
     year: '2016'
   M8lsE8sAAAAJ:NJ774b8OgUMC:
@@ -146,7 +146,7 @@ papers:
     title: 'Interplay of interactions and disorder at the superfluid-insulator transition: A dirty two-dimensional quantum critical point'
     year: '2020'
   M8lsE8sAAAAJ:XD-gHx7UXLsC:
-    citations: 143
+    citations: 154
     title: Strong-to-weak spontaneous symmetry breaking in mixed quantum states
     year: '2025'
   M8lsE8sAAAAJ:Z5m8FVwuT1cC:
@@ -154,11 +154,11 @@ papers:
     title: "Moir\xE9 Kagome Superlattices in Twisted Transition Metal Dichalcogenide Homotrilayers"
     year: '2025'
   M8lsE8sAAAAJ:ZHo1McVdvXMC:
-    citations: 137
+    citations: 140
     title: Wave function and strange correlator of short-range entangled states
     year: '2014'
   M8lsE8sAAAAJ:ZfRJV9d4-WMC:
-    citations: 58
+    citations: 59
     title: Strange correlation function for average symmetry-protected topological phases
     year: '2022'
   M8lsE8sAAAAJ:_B80troHkn4C:
@@ -170,11 +170,11 @@ papers:
     title: Non-Fermi Liquid Phase from Dipole Symmetry
     year: '2023'
   M8lsE8sAAAAJ:bnK-pcrLprsC:
-    citations: 104
+    citations: 105
     title: Lieb-Schultz-Mattis theorem and its generalizations from the perspective of the symmetry-protected topological phase
     year: '2018'
   M8lsE8sAAAAJ:dTyEYWd-f8wC:
-    citations: 309
+    citations: 314
     title: Designing flat bands by strain
     year: '2019'
   M8lsE8sAAAAJ:dfsIfKJdRG4C:
@@ -194,7 +194,7 @@ papers:
     title: Classification of Average Crystalline Topological Superconductors through a Generalized Real-Space Construction
     year: '2025'
   M8lsE8sAAAAJ:evX43VCCuoAC:
-    citations: 144
+    citations: 154
     title: 'Topological phases with average symmetries: The decohered, the disordered, and the intrinsic'
     year: '2025'
   M8lsE8sAAAAJ:fEOibwPWpKIC:
@@ -209,12 +209,16 @@ papers:
     citations: 16
     title: Construction and field theory of bosonic-symmetry-protected topological states beyond group cohomology
     year: '2015'
+  M8lsE8sAAAAJ:g3aElNc5_aQC:
+    citations: 0
+    title: Strange Correlator as a Diagnostic of Fragile and Delicate Topology
+    year: '2026'
   M8lsE8sAAAAJ:hMsQuOkrut0C:
     citations: 1
     title: Strong-to-Weak Spontaneous Symmetry Breaking in a D Transverse-Field Ising Model under Decoherence
     year: '2026'
   M8lsE8sAAAAJ:ipzZ9siozwsC:
-    citations: 24
+    citations: 25
     title: Holographic view of mixed-state symmetry-protected topological phases in open quantum systems
     year: '2025'
   M8lsE8sAAAAJ:j8SEvjWlNXcC:
@@ -250,7 +254,7 @@ papers:
     title: Detecting symmetry protected topological states by generalized correlation
     year: '2014'
   M8lsE8sAAAAJ:t6usbXjVLHcC:
-    citations: 46
+    citations: 47
     title: Deconfined quantum critical point on the triangular lattice
     year: '2018'
   M8lsE8sAAAAJ:t7zJ5fGR-2UC:
@@ -262,7 +266,7 @@ papers:
     title: Classification and construction of interacting fractonic higher-order topological phases
     year: '2023'
   M8lsE8sAAAAJ:tkaPQYYpVKoC:
-    citations: 107
+    citations: 108
     title: 'Adventure in Topological Phase Transitions in -D: Non-Abelian Deconfined Quantum Criticalities and a Possible Duality'
     year: '2019'
   M8lsE8sAAAAJ:tzM49s52ZIMC:
@@ -270,11 +274,11 @@ papers:
     title: Non-Fermi liquids from dipolar symmetry breaking
     year: '2023'
   M8lsE8sAAAAJ:uJ-U7cs_P_0C:
-    citations: 101
+    citations: 102
     title: Maximally localized Wannier functions, interaction models, and fractional quantum anomalous Hall effect in twisted bilayer MoTe2
     year: '2024'
   M8lsE8sAAAAJ:uLbwQdceFCQC:
-    citations: 458
+    citations: 468
     title: "Unconventional ferroelectricity in moir\xE9 heterostructures"
     year: '2020'
   M8lsE8sAAAAJ:uWiczbcajpAC:
@@ -286,7 +290,7 @@ papers:
     title: Line defects in three-dimensional symmetry-protected topological phases
     year: '2014'
   M8lsE8sAAAAJ:uc_IGeMz5qoC:
-    citations: 65
+    citations: 70
     title: Strong-to-weak spontaneous breaking of 1-form symmetry and intrinsically mixed topological order
     year: '2025'
   M8lsE8sAAAAJ:vDijr-p_gm4C:
@@ -294,7 +298,7 @@ papers:
     title: Measurement-only dynamics in the one-dimensional XY model
     year: '2023'
   M8lsE8sAAAAJ:vbGhcppDl1QC:
-    citations: 12
+    citations: 14
     title: Fidelity strange correlators for average symmetry-protected topological phases
     year: '2022'
   M8lsE8sAAAAJ:wbdj-CoPYUoC:
@@ -306,7 +310,7 @@ papers:
     title: "Z2 nontrivial Moir\xE9 minibands and interaction-driven Quantum anomalous Hall insulators in Topological Insulator based Moir\xE9 Heterostructures"
     year: '2023'
   M8lsE8sAAAAJ:ye4kPcJQO24C:
-    citations: 81
+    citations: 82
     title: Excitonic density wave and spin-valley superfluid in bilayer transition metal dichalcogenide
     year: '2021'
   M8lsE8sAAAAJ:zA6iFVUQeVQC:
@@ -314,10 +318,10 @@ papers:
     title: Bridging fermionic and bosonic short range entangled states
     year: '2015'
   M8lsE8sAAAAJ:zLWjf1WUPmwC:
-    citations: 17
+    citations: 21
     title: Topological holography for mixed-state phases and phase transitions
     year: '2025'
   M8lsE8sAAAAJ:z_wVstp3MssC:
-    citations: 55
+    citations: 56
     title: Locally purified density operators for symmetry-protected topological phases in mixed states
     year: '2025'
