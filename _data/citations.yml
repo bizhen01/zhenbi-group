@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-22'
 papers:
   M8lsE8sAAAAJ:0KyAp5RtaNEC:
     citations: 105
@@ -30,11 +30,11 @@ papers:
     title: Emergent fractons and algebraic quantum liquid from plaquette melting transitions
     year: '2020'
   M8lsE8sAAAAJ:9Nmd_mFXekcC:
-    citations: 20
+    citations: 21
     title: "Topological minibands and interaction driven quantum anomalous Hall state in topological insulator based moir\xE9 heterostructures"
     year: '2024'
   M8lsE8sAAAAJ:9vf0nzSNQJEC:
-    citations: 60
+    citations: 61
     title: Superconductivity near a ferroelectric quantum critical point in ultralow-density Dirac materials
     year: '2019'
   M8lsE8sAAAAJ:AXPGKjj_ei8C:
@@ -62,7 +62,7 @@ papers:
     title: 'Matrix Product States for Modulated Symmetries: SPT, LSM, and Beyond'
     year: '2026'
   M8lsE8sAAAAJ:EkHepimYqZsC:
-    citations: 4
+    citations: 5
     title: Intrinsic axion statistical topological insulator
     year: '2025'
   M8lsE8sAAAAJ:Fu2w8maKXqMC:
@@ -146,7 +146,7 @@ papers:
     title: 'Interplay of interactions and disorder at the superfluid-insulator transition: A dirty two-dimensional quantum critical point'
     year: '2020'
   M8lsE8sAAAAJ:XD-gHx7UXLsC:
-    citations: 154
+    citations: 156
     title: Strong-to-weak spontaneous symmetry breaking in mixed quantum states
     year: '2025'
   M8lsE8sAAAAJ:Z5m8FVwuT1cC:
@@ -174,7 +174,7 @@ papers:
     title: Lieb-Schultz-Mattis theorem and its generalizations from the perspective of the symmetry-protected topological phase
     year: '2018'
   M8lsE8sAAAAJ:dTyEYWd-f8wC:
-    citations: 314
+    citations: 317
     title: Designing flat bands by strain
     year: '2019'
   M8lsE8sAAAAJ:dfsIfKJdRG4C:
@@ -230,7 +230,7 @@ papers:
     title: "Fractons in moir\xE9 materials"
     year: '2022'
   M8lsE8sAAAAJ:mvPsJ3kp5DgC:
-    citations: 61
+    citations: 62
     title: Out-of-time-order correlation in marginal many-body localized systems
     year: '2017'
   M8lsE8sAAAAJ:nrtMV_XWKgEC:
@@ -278,7 +278,7 @@ papers:
     title: Maximally localized Wannier functions, interaction models, and fractional quantum anomalous Hall effect in twisted bilayer MoTe2
     year: '2024'
   M8lsE8sAAAAJ:uLbwQdceFCQC:
-    citations: 468
+    citations: 472
     title: "Unconventional ferroelectricity in moir\xE9 heterostructures"
     year: '2020'
   M8lsE8sAAAAJ:uWiczbcajpAC:
@@ -290,7 +290,7 @@ papers:
     title: Line defects in three-dimensional symmetry-protected topological phases
     year: '2014'
   M8lsE8sAAAAJ:uc_IGeMz5qoC:
-    citations: 70
+    citations: 71
     title: Strong-to-weak spontaneous breaking of 1-form symmetry and intrinsically mixed topological order
     year: '2025'
   M8lsE8sAAAAJ:vDijr-p_gm4C:
@@ -310,7 +310,7 @@ papers:
     title: "Z2 nontrivial Moir\xE9 minibands and interaction-driven Quantum anomalous Hall insulators in Topological Insulator based Moir\xE9 Heterostructures"
     year: '2023'
   M8lsE8sAAAAJ:ye4kPcJQO24C:
-    citations: 82
+    citations: 81
     title: Excitonic density wave and spin-valley superfluid in bilayer transition metal dichalcogenide
     year: '2021'
   M8lsE8sAAAAJ:zA6iFVUQeVQC:
@@ -318,7 +318,7 @@ papers:
     title: Bridging fermionic and bosonic short range entangled states
     year: '2015'
   M8lsE8sAAAAJ:zLWjf1WUPmwC:
-    citations: 21
+    citations: 22
     title: Topological holography for mixed-state phases and phase transitions
     year: '2025'
   M8lsE8sAAAAJ:z_wVstp3MssC:
