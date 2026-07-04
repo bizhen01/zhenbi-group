@@ -42,16 +42,35 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <h2>news</h2>
+      {% assign news_reversed = site.news | reverse %}
+      {% assign news_limit = page.announcements.limit %}
       {% assign news_size = site.news | size %}
-      {% if news_size > page.announcements.limit %}
-        <p class="text-end mt-2">
-          <a href="{{ '/news/' | relative_url }}">see all news &rarr;</a>
-        </p>
-      {% endif %}
+      <div class="news">
+        <table class="table table-sm table-borderless">
+          {% for item in news_reversed %}
+            <tr{% if forloop.index0 >= news_limit %} class="news-extra" style="display: none"{% endif %}>
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+        {% if news_size > news_limit %}
+          <p class="text-end mt-2">
+            <a
+              href="#"
+              onclick="event.preventDefault();var n=this.closest('.news').querySelectorAll('.news-extra');var show=n.length&&n[0].style.display==='none';for(var i=0;i&lt;n.length;i++){n[i].style.display=show?'table-row':'none';}this.textContent=show?'see fewer news':'see all news →';"
+              >see all news &rarr;</a
+            >
+          </p>
+        {% endif %}
+      </div>
     {% endif %}
 
     <!-- Latest posts -->
