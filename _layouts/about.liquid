@@ -43,29 +43,55 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>news</h2>
+      <style>
+        .news .news-month {
+          margin-bottom: 0.9rem;
+        }
+        .news .news-month-heading {
+          font-size: 0.78rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          font-weight: 600;
+          color: var(--global-text-color-light);
+          margin: 0 0 0.25rem;
+        }
+        .news .news-month-list {
+          list-style: none;
+          padding-left: 0;
+          margin: 0;
+        }
+        .news .news-month-list li {
+          margin-bottom: 0.25rem;
+        }
+      </style>
       {% assign news_reversed = site.news | reverse %}
-      {% assign news_limit = page.announcements.limit %}
       {% assign news_size = site.news | size %}
+      {% assign months_to_show = page.announcements.limit %}
+      {% assign month_count = 0 %}
+      {% assign current_month = '' %}
       <div class="news">
-        <table class="table table-sm table-borderless">
-          {% for item in news_reversed %}
-            <tr{% if forloop.index0 >= news_limit %} class="news-extra" style="display: none"{% endif %}>
-              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
-        {% if news_size > news_limit %}
+        {% for item in news_reversed %}
+          {% capture item_month %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+          {% if item_month != current_month %}
+            {% unless forloop.first %}</ul></div>{% endunless %}
+            {% assign current_month = item_month %}
+            {% assign month_count = month_count | plus: 1 %}
+            {% if month_count > months_to_show %}
+              <div class="news-month news-extra" style="display: none">
+            {% else %}
+              <div class="news-month">
+            {% endif %}
+            <h4 class="news-month-heading">{{ item_month }}</h4>
+            <ul class="news-month-list">
+          {% endif %}
+          <li>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</li>
+        {% endfor %}
+        {% if news_size > 0 %}</ul></div>{% endif %}
+        {% if month_count > months_to_show %}
           <p class="text-end mt-2">
             <a
               href="#"
-              onclick="event.preventDefault();var n=this.closest('.news').querySelectorAll('.news-extra');var show=n.length&&n[0].style.display==='none';for(var i=0;i&lt;n.length;i++){n[i].style.display=show?'table-row':'none';}this.textContent=show?'see fewer news':'see all news →';"
+              onclick="event.preventDefault();var n=this.closest('.news').querySelectorAll('.news-extra');var show=n.length&amp;&amp;n[0].style.display==='none';for(var i=0;i&lt;n.length;i++){n[i].style.display=show?'':'none';}this.textContent=show?'see fewer news':'see all news →';"
               >see all news &rarr;</a
             >
           </p>

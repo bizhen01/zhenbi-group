@@ -20,7 +20,7 @@ social: true
 announcements:
   enabled: true
   scrollable: false
-  limit: 8
+  limit: 6 # number of most-recent months shown before "see all news"
 
 latest_posts:
   enabled: false
