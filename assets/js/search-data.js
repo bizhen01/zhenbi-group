@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research program of the Bi Group — theoretical condensed matter physics.",
+          description: "Research program of the Bi Group — organized by topic, with the group&#39;s papers on each.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/zhenbi-group/research/";
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "Publications in reverse chronological order. A complete list is available on Google Scholar.",
+          description: "Full list of publications in reverse chronological order. See also Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/zhenbi-group/publications/";
@@ -78,6 +78,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=M8lsE8sAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-0351-3963", "_blank");
         },
       },{
         id: 'social-github',
