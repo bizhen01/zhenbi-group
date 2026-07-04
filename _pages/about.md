@@ -14,7 +14,7 @@ profile:
     <p>State College, PA 16801</p>
     <p><a href="mailto:zjb5184@psu.edu">zjb5184@psu.edu</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
