@@ -13,6 +13,6 @@
 
 ## Alumni & placements
 
-- **Jian-Hao Zhang** &nbsp; former Postdoctoral Researcher (2022–2024) &middot; now Assistant Professor, [Westlake University](https://en.westlake.edu.cn/), China
+- **Jian-Hao Zhang** &nbsp; former Postdoctoral Researcher (2022–2024) &middot; CTQM Prize Postdoctoral Fellow, University of Colorado Boulder; incoming faculty, [Westlake University](https://en.westlake.edu.cn/)
 - **Claire Schubert** &nbsp; former Undergraduate Researcher &middot; continuing to the Ph.D. program at the City University of New York (CUNY) Graduate Center
 - **Paul John Balderston** &nbsp; former Undergraduate Researcher &middot; now Theoretical Physics MSc student, [University of Amsterdam](https://www.uva.nl/en) &amp; Visiting Academic, [NYU CCPP](https://cosmo.nyu.edu/)
