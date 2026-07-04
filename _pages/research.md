@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: Research program of the Bi Group — theoretical condensed matter physics.
+description: Research program of the Bi Group — organized by topic, with the group's papers on each.
 nav: true
 nav_order: 1
 toc:
@@ -10,16 +10,17 @@ toc:
 ---
 
 <!--
-  STRUCTURE NOTE (safe to delete once the page is filled in).
-  This page is written for readers evaluating the research program: it should
-  read like a short, web-native research statement. For each theme:
-    1. one figure  — replace the dashed placeholder box with a figure.liquid
-       include once you drop an image in assets/img/research/;
-    2. "Why it matters" — 2–4 sentences: the open problem and its significance;
-    3. "Directions" — the concrete sub-problems you work on (already filled);
-    4. "Key papers" — links to YOUR most important contributions on the theme.
-  Fill the italic [TODO ...] prompts slowly. With the existing text + Directions,
-  each theme already reads as competent even before you finish.
+  STATUS NOTE (safe to delete once reviewed).
+  - Five topics. Each: figure placeholder + "Why it matters" intro + Directions +
+    the full list of papers tagged with that topic in _bibliography/papers.bib
+    (rendered via {% raw %}{% bibliography --query @*[topic~=...] %}{% endraw %}).
+  - The "Why it matters" intros are FIRST DRAFTS (each ends with [VERIFY]); replace
+    them with prose from your research statement.
+  - To move a paper between topics, edit its `topic = {...}` field in the .bib.
+  - Figures: drop images in assets/img/research/ (names in each box), then swap the
+    box for the figure.liquid include shown inside it.
+  - Untagged papers (a few collaborative / earlier works) appear only on the
+    full publications page, by design.
 -->
 
 <style>
@@ -32,126 +33,112 @@ toc:
     margin: 1.4rem 0;
     font-size: 0.9rem;
   }
-  .fig-placeholder code {
-    font-size: 0.82rem;
-  }
+  .fig-placeholder code { font-size: 0.82rem; }
 </style>
 
-Our research is in **theoretical condensed matter physics**, with a methodological emphasis on quantum field theory, topology, and effective theories of strongly correlated quantum matter. The themes below are not strict silos — most projects sit at the interface of two or more.
-
-_[TODO — program overview: 2–3 sentences naming the central thread that unifies the themes below (e.g. "using anomalies and dualities as organizing principles to predict new phases and transitions in correlated and topological matter"). This is the first thing an evaluator reads — make it a thesis statement, not a topic list.]_
+We work in **theoretical condensed matter physics**, using quantum field theory, topology, and generalized symmetry to predict, classify, and characterize phases of matter and phase transitions that lie beyond the Landau and free-fermion paradigms. The five directions below organize our program; each introduces the topic and lists the group's papers on it. _[VERIFY — refine the unifying thesis for the program.]_
 
 ---
 
-## Topological phases beyond the standard ten-fold way
+## Mixed-state phases of quantum matter
 
 <div class="fig-placeholder" markdown="0">
-  Figure placeholder — drop an image at <code>assets/img/research/topological.png</code>, then replace this box with:<br>
-  <code>{&#37; include figure.liquid path="assets/img/research/topological.png" caption="..." &#37;}</code>
+  Figure placeholder — drop an image at <code>assets/img/research/mixed-state.png</code>, then replace this box with:<br>
+  <code>{&#37; include figure.liquid path="assets/img/research/mixed-state.png" caption="..." &#37;}</code>
 </div>
 
-**Why it matters.** _[TODO: the open problem (e.g. classifying and characterizing phases outside the free-fermion ten-fold way — fracton order, crystalline SPTs, higher-order topology) and why resolving it is significant.]_
+**Why it matters.** In open and decohered quantum systems — subject to measurement, noise, or coupling to an environment — the very notion of a "phase" must be rebuilt: density matrices can carry order, topology, and criticality with no equilibrium counterpart. A central organizing idea is the distinction between *strong* and *weak* symmetries, and the *average* symmetries that survive disorder and decoherence. Our group develops the classification and diagnostics of these mixed-state phases, and a topological-holography framework that maps them onto more familiar equilibrium problems. _[VERIFY]_
 
 **Directions.**
 
-- **Symmetry-protected topological (SPT) states** — bosonic and fermionic, with onsite and crystalline symmetries.
-- **Fractonic and subsystem-symmetric phases** — phases with restricted-mobility excitations and dipolar conservation laws, and their connections to higher-form/higher-group symmetries.
-- **Higher-order topological phases** — gapless boundary modes localized to corners and hinges, including with subsystem symmetry.
+- Average symmetry-protected topological (ASPT) phases under disorder and decoherence.
+- Strong-to-weak spontaneous symmetry breaking — including of higher-form symmetries — and intrinsically mixed-state order.
+- Topological holography and mixed-state diagnostics (strange correlators, fidelity, purified density operators).
 
-**Key papers.** _[TODO: link 2–3 of your own papers, e.g. [Author, Journal Year](url).]_
+<div class="publications">
+{% bibliography --query @*[topic~=mixed_state] %}
+</div>
 
 ---
 
-## Quantum phase transitions beyond Landau
+## Quantum matter with generalized symmetry
 
 <div class="fig-placeholder" markdown="0">
-  Figure placeholder — drop an image at <code>assets/img/research/dqcp.png</code>, then replace this box with a <code>figure.liquid</code> include.
+  Figure placeholder — drop an image at <code>assets/img/research/generalized-symmetry.png</code>, then replace this box with a <code>figure.liquid</code> include.
 </div>
 
-**Why it matters.** _[TODO: state the central question — what universality classes are possible at deconfined quantum critical points — and why continuous transitions forbidden by Landau–Ginzburg theory are a fundamental challenge.]_
+**Why it matters.** Modern notions of symmetry — subsystem, dipolar/multipolar, and higher-form symmetries — dramatically enlarge the landscape of possible phases and impose constraints (Lieb–Schultz–Mattis theorems, 't Hooft anomalies) that ordinary symmetries cannot. These generalized symmetries underlie fracton order, with its restricted-mobility excitations, and tie condensed matter to formal developments in quantum field theory. We construct and classify the phases they protect, including interacting fractonic and higher-order topological phases. _[VERIFY]_
 
 **Directions.**
 
-- Non-abelian deconfined criticality and dualities in $3{+}1$D.
-- Continuous transitions between distinct symmetry-broken or topological phases forbidden by Landau–Ginzburg theory.
-- Anomaly-matching constraints on the IR effective theory of strongly coupled critical points.
+- Fracton, subsystem-symmetric, and dipolar / modulated-symmetry phases.
+- Classification and construction of interacting fractonic and higher-order topological phases.
+- Dipole-driven non-Fermi liquids and modulated-symmetry SPTs, including in mixed states.
 
-**Key papers.** _[TODO: link your key papers on deconfined criticality / dualities.]_
+<div class="publications">
+{% bibliography --query @*[topic~=generalized_symmetry] %}
+</div>
 
 ---
 
-## Quantum field theory and 't Hooft anomalies
+## Topological phases of matter and quantum field theory
 
 <div class="fig-placeholder" markdown="0">
-  Figure placeholder — drop an image at <code>assets/img/research/anomaly.png</code>, then replace this box with a <code>figure.liquid</code> include.
+  Figure placeholder — drop an image at <code>assets/img/research/topological-qft.png</code>, then replace this box with a <code>figure.liquid</code> include.
 </div>
 
-**Why it matters.** _[TODO: why anomaly matching is a powerful, non-perturbative constraint on the phases and transitions of strongly coupled systems, and what your group contributes.]_
+**Why it matters.** Symmetry-protected topological (SPT) phases look featureless in the bulk yet carry protected, anomalous boundaries — physics invisible to Landau order parameters. Classifying these phases and constructing the field theories that capture them — through nonlinear sigma models, strange correlators, anomaly inflow, and dualities — is a foundation of our work and underpins the directions above. _[VERIFY]_
 
 **Directions.**
 
-- Anomaly inflow, anomaly matching, and the classification of SPT states.
-- A web of dualities relating apparently distinct $2{+}1$D and $3{+}1$D field theories.
-- Lattice realizations of anomalous symmetries and their physical consequences.
+- Classification and construction of bosonic and fermionic SPT phases (group cohomology and beyond).
+- Anomalies, strange correlators, and the boundary field theories of topological phases.
+- Field-theoretic dualities and lattice realizations of strongly coupled gauge theories.
 
-**Key papers.** _[TODO: link your key papers on anomalies / dualities.]_
+<div class="publications">
+{% bibliography --query @*[topic~=topological_qft] %}
+</div>
 
 ---
 
-## Moiré quantum materials
+## Correlated and topological phases in moiré materials
 
 <div class="fig-placeholder" markdown="0">
   Figure placeholder — drop an image at <code>assets/img/research/moire.png</code>, then replace this box with a <code>figure.liquid</code> include.
 </div>
 
-**Why it matters.** _[TODO: why moiré platforms are a uniquely tunable arena for correlated and topological physics, and the specific questions your group targets.]_
+**Why it matters.** Moiré superlattices produce flat electronic bands in which interactions dominate, realizing correlated and topological states — Mott insulators, superconductors, ferroelectrics, and fractional Chern insulators — that are tunable in situ. Our group designs moiré and strained heterostructures to engineer target band structures, and predicts the correlated phases they host, linking moiré band topology to bulk symmetry-protected order. _[VERIFY]_
 
 **Directions.**
 
-- Flat-band engineering by strain and stacking in 2D heterostructures.
-- Correlated states (Mott insulators, superconductors, fractional Chern insulators) in twisted bilayer and few-layer systems.
-- Connections between moiré band topology and bulk SPT states.
+- Flat-band and superlattice engineering by strain and stacking, including moiré kagome lattices.
+- Correlated and topological states: unconventional ferroelectricity, excitonic orders, fractional quantum anomalous Hall states.
+- Wannier-orbital interaction models bridging moiré band topology and correlated phases.
 
-**Key papers.** _[TODO: link your key papers on moiré / 2D materials.]_
-
----
-
-## Strongly correlated metals and non-Fermi liquids
-
-<div class="fig-placeholder" markdown="0">
-  Figure placeholder — drop an image at <code>assets/img/research/nfl.png</code>, then replace this box with a <code>figure.liquid</code> include.
+<div class="publications">
+{% bibliography --query @*[topic~=moire] %}
 </div>
 
-**Why it matters.** _[TODO: why non-Fermi-liquid metals and the breakdown of quasiparticles remain a central open problem, and your group's angle on it.]_
-
-**Directions.**
-
-- The Sachdev–Ye–Kitaev model and its instabilities.
-- Non-Fermi-liquid phenomenology near quantum critical points.
-- Symmetry-breaking instabilities in strongly correlated fermionic models.
-
-**Key papers.** _[TODO: link your key papers on SYK / non-Fermi liquids.]_
-
 ---
 
-## Quantum dynamics and open systems
+## Unconventional quantum criticality and gapless phases
 
 <div class="fig-placeholder" markdown="0">
-  Figure placeholder — drop an image at <code>assets/img/research/dynamics.png</code>, then replace this box with a <code>figure.liquid</code> include.
+  Figure placeholder — drop an image at <code>assets/img/research/criticality.png</code>, then replace this box with a <code>figure.liquid</code> include.
 </div>
 
-**Why it matters.** _[TODO: why mixed-state phases and non-unitary dynamics are an emerging frontier, and what new organizing principles your group is after.]_
+**Why it matters.** Some of the most striking quantum many-body phenomena are gapless: continuous transitions forbidden by Landau theory (deconfined quantum criticality), metals without quasiparticles (non-Fermi liquids), and strongly interacting conformal field theories. We construct and constrain the field theories of these gapless states — extending deconfined criticality to $3{+}1$ dimensions, mapping out dualities, and analyzing non-Fermi-liquid and SYK-type instabilities. _[VERIFY]_
 
 **Directions.**
 
-- Universality classes of unitary and non-unitary quantum evolution.
-- Mixed-state phases of matter and their topological/anomaly structure.
-- Open-system Lindblad dynamics, non-Markovian effects, and their numerical simulation.
+- Deconfined quantum critical points and beyond-Landau continuous transitions.
+- Non-Fermi liquids, SYK-type models, and composite-fermion metals.
+- Strongly interacting boundary CFTs and superfluid–insulator criticality.
 
-**Key papers.** _[TODO: link your key papers on open systems / mixed-state phases.]_
+<div class="publications">
+{% bibliography --query @*[topic~=criticality] %}
+</div>
 
 ---
 
-A representative subset of our work is on the [publications page](/zhenbi-group/publications/); the full list is on [Google Scholar](https://scholar.google.com/citations?user=M8lsE8sAAAAJ&hl=en).
-</content>
-</invoke>
+The complete list of publications — including collaborative and earlier work not grouped above — is on the [publications page](/zhenbi-group/publications/) and [Google Scholar](https://scholar.google.com/citations?user=M8lsE8sAAAAJ&hl=en).
