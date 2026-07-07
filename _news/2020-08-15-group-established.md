@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The **Bi Group** is established at Penn State, as Zhen Bi joins the Department of Physics as an Assistant Professor.
+The **Bi Group** is established at Penn State, as **Zhen Bi** joins the Department of Physics as an Assistant Professor.
