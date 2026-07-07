@@ -4,6 +4,20 @@
 
 @use "variables" as v;
 
+// Serif type (overrides the vendored MDBootstrap "Roboto" body font).
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar,
+.post-title,
+.post-description {
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
+}
+
 p,
 h1,
 h2,
