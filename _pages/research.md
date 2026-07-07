@@ -2,7 +2,6 @@
 layout: page
 permalink: /research/
 title: research
-description: Research program of the Bi Group — organized by topic, with the group's papers on each.
 nav: true
 nav_order: 1
 toc:
