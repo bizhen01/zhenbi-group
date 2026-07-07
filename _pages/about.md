@@ -48,4 +48,6 @@ See the [research page](/zhenbi-group/research/) for details.
 
 Zhen Bi is an Assistant Professor of Physics at Penn State and a 2024 NSF CAREER awardee. Before joining Penn State in 2020, he was a Pappalardo Fellow at MIT (2017–2020) and received his Ph.D. from UC Santa Barbara (2017).
 
-We are part of the broader Penn State condensed-matter theory community and of the [Center for Theory of Emergent Quantum Matter (C-TEQ)](https://quantum.psu.edu/2025/12/12/center-for-theory-of-emergent-quantum-matter-launched-at-penn-state/) at Penn State. Prospective Ph.D. students at Penn State, postdocs, and undergraduates interested in any of the directions above are encouraged to email Zhen.
+We are part of the broader Penn State condensed-matter theory community and of the [Center for Theory of Emergent Quantum Matter (C-TEQ)](https://quantum.psu.edu/2025/12/12/center-for-theory-of-emergent-quantum-matter-launched-at-penn-state/) at Penn State.
+
+**Openings.** We are recruiting Ph.D. students through the Penn State physics graduate program, and welcome inquiries from prospective postdocs and undergraduate researchers interested in any of the directions above. Please email Zhen.
