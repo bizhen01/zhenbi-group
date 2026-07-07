@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research program of the Bi Group — organized by topic, with the group&#39;s papers on each.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/zhenbi-group/research/";
