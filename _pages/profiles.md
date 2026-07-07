@@ -20,3 +20,5 @@ profiles:
   # ===== Group members (text list, no photos) =====
   - content: about_members_list.md
 ---
+
+{% include figure.liquid path="assets/img/group_photo.jpg" class="img-fluid rounded z-depth-1" alt="The Bi Group at the 2025 Penn State Physics department holiday gathering" caption="The Bi Group at the Penn State Department of Physics holiday gathering, December 2025." %}
