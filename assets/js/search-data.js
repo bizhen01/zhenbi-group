@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zhenbi-group/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/zhenbi-group/teaching/";
+          },
         },{id: "nav-people",
           title: "people",
           description: "Members of the Bi Group at Penn State.",
