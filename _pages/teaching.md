@@ -18,20 +18,18 @@ At Penn State, Zhen teaches across the undergraduate and graduate condensed-matt
 
 ## Courses taught at Penn State
 
-| Term | Course | Title | Enroll. | Rating |
-| --- | --- | --- | :---: | :---: |
-| Spring 2026 | PHYS 513 | Quantum Theory of Solids II | 8 | 5 / 5 |
-| Fall 2025 | PHYS 420 | Thermal Physics | 32 | 4 / 5 |
-| Spring 2025 | PHYS 518 | Critical Phenomena and Field Theory | 14 | 4.5 / 5 |
-| Fall 2024 | PHYS 420 | Thermal Physics | 26 | 5 / 5 |
-| Spring 2024 | PHYS 420 | Thermal Physics | 48 | 4 / 5 |
-| Fall 2023 | PHYS 420 | Thermal Physics | 41 | 4 / 5 |
-| Spring 2023 | PHYS 513 | Quantum Theory of Solids II | 9 | 6 / 7 |
-| Spring 2022 | PHYS 513 | Quantum Theory of Solids II | 13 | 7 / 7 |
-| Fall 2021 | PHYS 420 | Thermal Physics | 30 | 6 / 7 |
-| Spring 2021 | PHYS 420 | Thermal Physics | 46 | 6 / 7 |
-
-Rating is the median of the end-of-course "meaningful learning experience" item (7-point SRTE through Spring 2023; 5-point SEEQ from Fall 2023).
+| Term | Course | Title |
+| --- | --- | --- |
+| Spring 2026 | PHYS 513 | Quantum Theory of Solids II |
+| Fall 2025 | PHYS 420 | Thermal Physics |
+| Spring 2025 | PHYS 518 | Critical Phenomena and Field Theory |
+| Fall 2024 | PHYS 420 | Thermal Physics |
+| Spring 2024 | PHYS 420 | Thermal Physics |
+| Fall 2023 | PHYS 420 | Thermal Physics |
+| Spring 2023 | PHYS 513 | Quantum Theory of Solids II |
+| Spring 2022 | PHYS 513 | Quantum Theory of Solids II |
+| Fall 2021 | PHYS 420 | Thermal Physics |
+| Spring 2021 | PHYS 420 | Thermal Physics |
 
 ## Curriculum development
 

@@ -36,7 +36,7 @@ latest_posts:
   curate them via `selected={true}` in _bibliography/papers.bib.
 -->
 
-The Bi Group at Penn State works on **theoretical condensed matter physics**. Our research sits at the interface of quantum field theory, topology, and strongly correlated electron systems. We pursue four main directions:
+The Bi Group at Penn State works on **theoretical condensed matter physics**. Our research sits at the interface of quantum field theory, topology, and strongly correlated electron systems. We pursue five main directions:
 
 - **Mixed-state phases of quantum matter** — order, topology, and criticality in open and decohered quantum systems.
 - **Quantum matter with generalized symmetry** — fracton, subsystem, dipolar, and higher-form symmetries, and the phases they protect.
@@ -48,4 +48,4 @@ See the [research page](/zhenbi-group/research/) for details.
 
 Zhen Bi is an Assistant Professor of Physics at Penn State and a 2024 NSF CAREER awardee. Before joining Penn State in 2020, he was a Pappalardo Fellow at MIT (2017–2020) and received his Ph.D. from UC Santa Barbara (2017).
 
-We are part of the broader Penn State condensed-matter theory community. Prospective Ph.D. students at Penn State, postdocs, and undergraduates interested in any of the directions above are encouraged to email Zhen.
+We are part of the broader Penn State condensed-matter theory community and of the [Center for Theory of Emergent Quantum Matter (C-TEQ)](https://quantum.psu.edu/2025/12/12/center-for-theory-of-emergent-quantum-matter-launched-at-penn-state/) at Penn State. Prospective Ph.D. students at Penn State, postdocs, and undergraduates interested in any of the directions above are encouraged to email Zhen.
