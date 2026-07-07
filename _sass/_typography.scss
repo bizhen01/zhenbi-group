@@ -27,6 +27,12 @@ h4,
   font-weight: 700;
 }
 
+// Source Serif Pro has no 500 weight (al-folio's default for bold); force real bold.
+b,
+strong {
+  font-weight: 700;
+}
+
 p,
 h1,
 h2,
