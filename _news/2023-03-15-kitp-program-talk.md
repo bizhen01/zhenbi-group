@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Zhen gave an invited talk on the classification and characterization of average symmetry-protected topological phases during the KITP program *A Quantum Universe in a Crystal: Symmetry and Topology across the Correlation Spectrum*.
+Zhen gave an invited talk, *Classification and Characterization of Average Symmetry-Protected Topological Phases*, at the KITP program “A Quantum Universe in a Crystal.”

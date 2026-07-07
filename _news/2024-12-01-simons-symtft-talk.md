@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Zhen spoke on a SymTFT perspective on mixed-state phases at the Simons Center for Geometry and Physics (Stony Brook).
+Zhen gave an invited talk, *SymTFT Perspective on Mixed-State Phases*, at the Simons Center for Geometry and Physics (Stony Brook).
