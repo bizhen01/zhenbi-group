@@ -17,7 +17,7 @@ toc:
   The descriptions below are drafts — refine them from the research statement.
 -->
 
-We work in **theoretical condensed matter physics**, at the interface of quantum field theory, topology, and the theory of strongly correlated and open quantum systems. A common thread runs through the group's work: using symmetry — increasingly, its modern generalizations — together with anomalies and dualities to predict, classify, and characterize phases of matter and phase transitions that lie beyond the Landau symmetry-breaking and free-fermion paradigms. The five directions below span this program, from the mixed-state phases of open quantum systems to the field theories of gapless quantum matter.
+The Bi Group works on the theory of quantum many-body systems — how the simple rules of quantum mechanics, applied to many interacting particles, give rise to distinct phases of matter and the transitions between them. We focus on phases and transitions that lie beyond the standard textbook framework, where the usual descriptions in terms of order parameters or independent electrons no longer apply. To understand them we draw on quantum field theory, topology, and the evolving notion of symmetry — using these tools to predict new phases, classify the forms they can take, and identify how to detect them. The five directions below span this program, from the topological and gapless phases of closed systems to the new forms of order that emerge in open, noisy quantum matter.
 
 ---
 
